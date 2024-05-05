@@ -17,7 +17,7 @@ const data = {
     ),
     plancards: [
       {
-        image: "./assets/plan1.png",
+        image: "plan1.png",
         titre: "Les bases de la planification",
         url: "https://drive.google.com/file/d/16Ickqc8VUsPpKRc1qWSVeJC83qnihfSy/view?usp=sharing",
       },
