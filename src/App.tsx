@@ -21,7 +21,7 @@ function App() {
                 num1={1}
                 num2={2}
                 intro={data.planification.planintro}
-                sideimg={"planification.svg"}
+                sideimg={"assets/planification.svg"}
                 cards={data.planification.plancards}
               />
             }
@@ -33,7 +33,7 @@ function App() {
                 num1={1}
                 num2={2}
                 intro={data.gestion.gestintro}
-                sideimg={"gestion.svg"}
+                sideimg={"assets/gestion.svg"}
                 cards={data.gestion.gestcards}
               />
             }
@@ -45,7 +45,7 @@ function App() {
                 num1={1}
                 num2={2}
                 intro={data.recherche.rechintro}
-                sideimg={"recherche.svg"}
+                sideimg={"assets/recherche.svg"}
                 cards={data.recherche.rechcards}
               />
             }
@@ -57,7 +57,7 @@ function App() {
                 num1={1}
                 num2={2}
                 intro={data.programmation.progintro}
-                sideimg={"python.svg"}
+                sideimg={"assets/python.svg"}
                 cards={data.programmation.progcards}
               />
             }
@@ -69,7 +69,7 @@ function App() {
                 num1={2}
                 num2={1}
                 intro={data.didactique.didaintro}
-                sideimg={"didactique.svg"}
+                sideimg={"assets/didactique.svg"}
                 cards={data.didactique.didacards}
               />
             }
@@ -81,7 +81,7 @@ function App() {
                 num1={2}
                 num2={1}
                 intro={data.tice.ticeintro}
-                sideimg={"tice.svg"}
+                sideimg={"assets/tice.svg"}
                 cards={data.tice.ticecards}
               />
             }
@@ -93,7 +93,7 @@ function App() {
                 num1={2}
                 num2={1}
                 intro={data.scienceEducation.scintro}
-                sideimg={"scienceEducation.svg"}
+                sideimg={"assets/scienceEducation.svg"}
                 cards={data.scienceEducation.sccards}
               />
             }
@@ -105,7 +105,7 @@ function App() {
                 num1={2}
                 num2={1}
                 intro={data.architecture.archintro}
-                sideimg={"architecture.svg"}
+                sideimg={"assets/architecture.svg"}
                 cards={data.architecture.archcards}
               />
             }

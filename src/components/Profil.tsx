@@ -30,11 +30,11 @@ function Profil() {
       <div className="container" id="profil">
         <div className="row">
           <h2>Informations personnelles :</h2>
-          <img src="../public/personel.jpg" alt="" />
+          <img src="assets/personel.jpg" alt="" />
         </div>
         <div className="row">
           <h2>Parcours professionnel :</h2>
-          <img src="../public/timeline.jpg" alt="" />
+          <img src="assets/timeline.jpg" alt="" />
         </div>
       </div>
       <Devider id={"down"} />

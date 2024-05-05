@@ -17,37 +17,37 @@ const data = {
     ),
     plancards: [
       {
-        image: "plan1.png",
+        image: "assets/plan1.png",
         titre: "Les bases de la planification",
         url: "https://drive.google.com/file/d/16Ickqc8VUsPpKRc1qWSVeJC83qnihfSy/view?usp=sharing",
       },
       {
-        image: "plan2.png",
+        image: "assets/plan2.png",
         titre: "Analyse du programme d'informatique collège et lycée",
         url: "https://drive.google.com/file/d/13UBkWPJiVHEDm0OD-8X7wpkNY-OgiUi0/view?usp=drive_link",
       },
       {
-        image: "plan3.png",
+        image: "assets/plan3.png",
         titre: "Les méthodes pédagogiques",
         url: "https://drive.google.com/file/d/175PXrivjTJTxv1-qh6K5Zxoq9PbKqiwR/view?usp=drive_link",
       },
       {
-        image: "plan4.png",
+        image: "assets/plan4.png",
         titre: "Savoir, Capacité, Objectif spécifique, Compétence",
         url: "https://drive.google.com/file/d/1GlxB1s4JnIq1AbjKkB9CVJ2mzXkVBQ-f/view?usp=drive_link",
       },
       {
-        image: "plan5.png",
+        image: "assets/plan5.png",
         titre: "Fiche pédagogique",
         url: "https://drive.google.com/file/d/1dz9TC9CnRG9KjccwUTA-GmFhAfHVbi3j/view?usp=drive_link",
       },
       {
-        image: "plan6.png",
+        image: "assets/plan6.png",
         titre: "Présentation du cours de la Fiche pédagogique",
         url: "https://drive.google.com/file/d/1VP7eJIYm86WuWq-BuMjrHPP8TelDya4Q/view?usp=sharing",
       },
       {
-        image: "plan7.png",
+        image: "assets/plan7.png",
         titre: "Compte rendu du module Planification",
         url: "https://drive.google.com/file/d/10rmBsa9qRcdrP7QIexeuCN-Z49fzaOZx/view?usp=sharing",
       },
@@ -71,22 +71,22 @@ const data = {
     ),
     gestcards: [
       {
-        image: "gest1.png",
+        image: "assets/gest1.png",
         titre: "Gestion",
         url: "https://drive.google.com/file/d/1JRt395Tmg_GGzz_XZsXQlkqiMY77Oes1/view?usp=drive_link",
       },
       {
-        image: "gest2.png",
+        image: "assets/gest2.png",
         titre: "Communication pédagogique",
         url: "https://drive.google.com/file/d/1Q8xR4rFJqLTkkn3O5zOePpdfqHnEL8uZ/view?usp=drive_link",
       },
       {
-        image: "gest3.png",
+        image: "assets/gest3.png",
         titre: "Cours: Réalité Mixte",
         url: "https://drive.google.com/file/d/1OLkTbvvtmipuVoy5dM5EjnmoPzNZBCBA/view?usp=drive_link",
       },
       {
-        image: "gest4.png",
+        image: "assets/gest4.png",
         titre: "Compte rendu du module Gestion1",
         url: "https://drive.google.com/file/d/1lBdNgEb--cHn3THgnqGCVrXJOBaKvR_C/view?usp=sharing",
       },
@@ -111,27 +111,27 @@ const data = {
     ),
     didacards: [
       {
-        image: "did1.png",
+        image: "assets/did1.png",
         titre: "Les effets didactiques",
         url: "https://drive.google.com/file/d/1GEmQV_04iHnH8FNV5xaWhrDBnk4PPPrU/view?usp=sharing",
       },
       {
-        image: "did2.png",
+        image: "assets/did2.png",
         titre: "Cours: Histoire et épistémologie de l'informatique",
         url: "https://drive.google.com/file/d/1Shtf_sObXE_L2imWr2And-xJI7R_STIP/view?usp=drive_link",
       },
       {
-        image: "did3.png",
+        image: "assets/did3.png",
         titre: "Cours: Théories d'apprentissage",
         url: "https://drive.google.com/file/d/1eHvzD6uZBxKydwwpHDLl-7bJMjUbsexq/view?usp=sharing",
       },
       {
-        image: "did4.png",
+        image: "assets/did4.png",
         titre: "Cours: Didactique de l'informatique: Concepts généraux",
         url: "https://drive.google.com/file/d/1nfk3d_NefPKTunoGOBU1_3FS1w22OCNr/view?usp=sharing",
       },
       {
-        image: "did5.png",
+        image: "assets/did5.png",
         titre: "Cours: Théorie de la situation didactique",
         url: "https://drive.google.com/file/d/1OXOgHtAF-fXFTO4M--QDrl_MU2qGhFhW/view?usp=sharing",
       },
@@ -156,18 +156,18 @@ const data = {
     ),
     ticecards: [
       {
-        image: "tice2.png",
+        image: "assets/tice2.png",
         titre:
           "Rapport d'analyse de l'accessibilité du site du CRMEF Dakhla-Oued Eddahab",
         url: "https://drive.google.com/file/d/1dqZ5aEsiHoafLyD8J9tHM_2hzP43AEIx/view?usp=sharing",
       },
       {
-        image: "tice1.png",
+        image: "assets/tice1.png",
         titre: "Vidéo éducative: Carte Conceptuelle",
         url: "https://drive.google.com/file/d/1mJ3iMM4nX3OVS3fsrcOSZUSqZET94COT/view?usp=sharing",
       },
       {
-        image: "tice3.png",
+        image: "assets/tice3.png",
         titre: "Rapport du site web OSTICE",
         url: "https://drive.google.com/file/d/1YdgJrFICo6B5QuWtFCXbAkgjhyy4h4B3/view?usp=sharing",
       },
@@ -194,32 +194,32 @@ const data = {
     ),
     progcards: [
       {
-        image: "prog1.png",
+        image: "assets/prog1.png",
         titre: "Exposé: Les fonctions récursives en algorithmique",
         url: "https://drive.google.com/file/d/1vVcsJOGS1_yAWhY0Ff1DIVV2o9fSuOco/view?usp=sharing",
       },
       {
-        image: "prog2.png",
+        image: "assets/prog2.png",
         titre: "Cours: Algorithmique",
         url: "https://drive.google.com/file/d/1O8TiKzT7Gg7zaIqfdR4NzyGEfakgpJRU/view?usp=drive_link",
       },
       {
-        image: "prog3.png",
+        image: "assets/prog3.png",
         titre: "TP en algorithmique",
         url: "https://drive.google.com/file/d/1gBMUTSRxqpvAY7bf3lM5rU0foAl1eRD_/view?usp=drive_link",
       },
       {
-        image: "prog4.png",
+        image: "assets/prog4.png",
         titre: "Cours: Programmation en Python",
         url: "https://drive.google.com/file/d/1Qia3P4mUNybvNRJxbevqr5utdySXZLJB/view?usp=drive_link",
       },
       {
-        image: "prog5.png",
+        image: "assets/prog5.png",
         titre: "Série des TPs en python",
         url: "https://drive.google.com/file/d/1XiSAot4OYegNzpW5hkMqaaPmQFPHYb8g/view?usp=drive_link",
       },
       {
-        image: "prog6.png",
+        image: "assets/prog6.png",
         titre: "Correction de la série des TPs en python",
         url: "https://drive.google.com/file/d/1PFsaYV61gIwLprJEnOrb7ml1kQDjHwGU/view?usp=drive_link",
       },
@@ -244,22 +244,22 @@ const data = {
     ),
     archcards: [
       {
-        image: "arch1.png",
+        image: "assets/arch1.png",
         titre: "Outils AI: Grammarly",
         url: "https://drive.google.com/file/d/1gPuuSj7aSYdV--CJ8eXmTzXKIj_DgOWx/view?usp=sharing",
       },
       {
-        image: "arch2.png",
+        image: "assets/arch2.png",
         titre: "Suite du chapitre n°2: Codage des nombres relatifs et réels",
         url: "https://drive.google.com/file/d/183P_HvyS_tMFVsdFKGn8McLTYnMmaj__/view?usp=sharing",
       },
       {
-        image: "arch3.png",
+        image: "assets/arch3.png",
         titre: "QCM: Codage des nombres relatifs et réels",
         url: "https://drive.google.com/file/d/1ACq0uWZ4y9uhv_wtgpd8OuOwgAmJdg2-/view?usp=sharing",
       },
       {
-        image: "arch4.png",
+        image: "assets/arch4.png",
         titre: "Correction du QCM: Codage des nombres relatifs et réels",
         url: "https://drive.google.com/file/d/1KCghX8zEFsI7xN0nMmam9SJ_UNo38YRo/view?usp=sharing",
       },
@@ -283,17 +283,17 @@ const data = {
     ),
     sccards: [
       {
-        image: "sc1.png",
+        image: "assets/sc1.png",
         titre: "Exposé: La sociologie de l'éducation",
         url: "https://drive.google.com/file/d/130cWGBg9tDS82YUtTWt-50baG7SavpuC/view?usp=sharing",
       },
       {
-        image: "sc3.png",
+        image: "assets/sc3.png",
         titre: "Résumé: La sociologie de l'éducation",
         url: "https://drive.google.com/file/d/1vkKm4vYPwtY2DG2Q8oDP9qFqBkPyH6t1/view?usp=drive_link",
       },
       {
-        image: "sc2.png",
+        image: "assets/sc2.png",
         titre: "Compte Rendu: Sciences d'éducation",
         url: "https://drive.google.com/file/d/1bmxkGB9AZiLgktwNz92vhGjdmYSFO3J2/view?usp=drive_link",
       },
@@ -320,12 +320,12 @@ const data = {
     ),
     rechcards: [
       {
-        image: "mra1.png",
+        image: "assets/mra1.png",
         titre: "Fiche de lecture d'une recherche quantitative et qualitative",
         url: "https://drive.google.com/file/d/1rpHG2l1Aq2uotlbMbcA-T5EKt4y8MrR9/view?usp=sharing",
       },
       {
-        image: "mra2.png",
+        image: "assets/mra2.png",
         titre: "Cours: Méthologie de recherche-action",
         url: "https://drive.google.com/file/d/1fFgEzgDOxi3fpCmLvgq2K7_AdVoMtIiB/view?usp=drive_link",
       },
