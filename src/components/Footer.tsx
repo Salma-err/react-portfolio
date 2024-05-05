@@ -3,7 +3,7 @@ function Footer() {
     <footer>
       Sous l'encadrement de :
       <img
-        src="../public/crmeflogo.png"
+        src="assets/crmeflogo.png"
         alt="logo"
         className="d-inline-block align-text-top"
         width={200}
@@ -11,7 +11,7 @@ function Footer() {
       />
       Je vous présente :
       <img
-        src="../public/logo.svg"
+        src="assets/logo.svg"
         alt="logo"
         className="d-inline-block align-text-top"
         width={200}

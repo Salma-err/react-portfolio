@@ -19,7 +19,11 @@ function Crmef() {
       services d'accompagnement.
     </p>
   );
-  const images = ["crmef1.jpg", "crmef3.jpg", "crmef2.jpg"];
+  const images = [
+    "assets/crmef1.jpg",
+    "assets/crmef3.jpg",
+    "assets/crmef2.jpg",
+  ];
   return (
     <div>
       <Header></Header>

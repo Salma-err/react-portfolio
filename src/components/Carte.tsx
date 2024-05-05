@@ -7,7 +7,7 @@ function Carte(props: {
   image: any;
   titre: any;
 }) {
-  var image = `../public/${props.image}`;
+  var image = `assets/${props.image}`;
   var titre = props.titre;
   var url = props.url;
   var id = props.id;

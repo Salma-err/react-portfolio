@@ -6,7 +6,7 @@ function Header() {
       <div className="container-fluid">
         <Link to="/" className="navbar-brand ps-5">
           <img
-            src="../public/logo.svg"
+            src="assets/logo.svg"
             alt="logo"
             className="d-inline-block align-text-top"
             width={200}
