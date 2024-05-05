@@ -21,7 +21,7 @@ function App() {
                 num1={1}
                 num2={2}
                 intro={data.planification.planintro}
-                sideimg={"./planification.svg"}
+                sideimg={"planification.svg"}
                 cards={data.planification.plancards}
               />
             }

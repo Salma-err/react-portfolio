@@ -6,7 +6,7 @@ function FirstSectionP(props: {
   image: any;
 }) {
   var text = props.texte;
-  var image = `assets/${props.image}`;
+  var image = `./assets/${props.image}`;
   var id = props.id;
   var num1 = props.num1;
   var num2 = props.num2;
