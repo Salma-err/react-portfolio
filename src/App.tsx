@@ -33,7 +33,7 @@ function App() {
                 num1={1}
                 num2={2}
                 intro={data.gestion.gestintro}
-                sideimg={"assets/gestion.svg"}
+                sideimg={"gestion.svg"}
                 cards={data.gestion.gestcards}
               />
             }
@@ -45,7 +45,7 @@ function App() {
                 num1={1}
                 num2={2}
                 intro={data.recherche.rechintro}
-                sideimg={"assets/recherche.svg"}
+                sideimg={"recherche.svg"}
                 cards={data.recherche.rechcards}
               />
             }
@@ -57,7 +57,7 @@ function App() {
                 num1={1}
                 num2={2}
                 intro={data.programmation.progintro}
-                sideimg={"assets/python.svg"}
+                sideimg={"python.svg"}
                 cards={data.programmation.progcards}
               />
             }
@@ -69,7 +69,7 @@ function App() {
                 num1={2}
                 num2={1}
                 intro={data.didactique.didaintro}
-                sideimg={"assets/didactique.svg"}
+                sideimg={"didactique.svg"}
                 cards={data.didactique.didacards}
               />
             }
@@ -81,7 +81,7 @@ function App() {
                 num1={2}
                 num2={1}
                 intro={data.tice.ticeintro}
-                sideimg={"assets/tice.svg"}
+                sideimg={"tice.svg"}
                 cards={data.tice.ticecards}
               />
             }
@@ -93,7 +93,7 @@ function App() {
                 num1={2}
                 num2={1}
                 intro={data.scienceEducation.scintro}
-                sideimg={"assets/scienceEducation.svg"}
+                sideimg={"scienceEducation.svg"}
                 cards={data.scienceEducation.sccards}
               />
             }
@@ -105,7 +105,7 @@ function App() {
                 num1={2}
                 num2={1}
                 intro={data.architecture.archintro}
-                sideimg={"assets/architecture.svg"}
+                sideimg={"architecture.svg"}
                 cards={data.architecture.archcards}
               />
             }
