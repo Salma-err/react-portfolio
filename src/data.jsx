@@ -17,12 +17,12 @@ const data = {
     ),
     plancards: [
       {
-        image: "assets/plan1.png",
+        image: "/assets/plan1.png",
         titre: "Les bases de la planification",
         url: "https://drive.google.com/file/d/16Ickqc8VUsPpKRc1qWSVeJC83qnihfSy/view?usp=sharing",
       },
       {
-        image: "assets/plan2.png",
+        image: "/assets/plan2.png",
         titre: "Analyse du programme d'informatique collège et lycée",
         url: "https://drive.google.com/file/d/13UBkWPJiVHEDm0OD-8X7wpkNY-OgiUi0/view?usp=drive_link",
       },
