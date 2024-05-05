@@ -43,7 +43,7 @@ function Crmef() {
         <h3>Semestre 1 :</h3>
         <div className="row">
           <Carte
-            image={"did1.png"}
+            image={"recherche.svg"}
             titre={"Méthodologie de recherche-action"}
             url={"/crmef/MRA"}
             id={"module"}
