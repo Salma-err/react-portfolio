@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Inconsolata:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Handlee&family=Inconsolata:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --red: #e64d61;
+  --blue: #323167;
+  --light_blue: #bdd6e8;
+  --white: #f4f8e4;
+}
+* {
+  font-family: "raleway", sans-serif !important;
+  font-weight: 300;
+  font-size: 22px;
+}
+body {
+  position: relative;
+}
+/*header*/
+.navbar {
+  background-color: var(--white);
+  padding: 0 !important;
+}
+.navbar .navbar-toggler {
+  border: none !important;
+  border-radius: 0;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("../public/menu.svg");
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: var(--blue);
+  font-size: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold;
+}
+.navbar .navbar-nav .nav-item .nav-link:active {
+  color: #fc6736 !important;
+  font-weight: bold;
+}
+/*first section with image*/
+.masthead.sectionP {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  background-color: var(--white);
+}
+.container.px-5 {
+  justify-content: space-between;
+  align-items: center;
+}
+.sidetexte h4 {
+  font-size: 30px;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.sidetexte h6 {
+  font-size: 50px;
+  color: black;
+  margin-bottom: 1rem;
+}
+span {
+  color: var(--red);
+  font-size: 25px;
+  font-family: "Handlee", cursive !important;
+  text-decoration: underline dotted 2px;
+}
+.sidetexte h6 span {
+  color: var(--red);
+  font-size: 50px;
+  font-family: "Handlee", cursive !important;
+}
+.sidetexte p {
+  font-size: 20px;
+  font-weight: 400 !important;
+  color: var(--blue);
+  text-align: justify;
+}
+.sidetexte p#pro {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: right;
+}
+.sidetexte .btn.btn-primary {
+  margin-top: 2rem;
+  background-color: var(--light_blue);
+  border: 1px solid var(--light_blue);
+  padding: 4px 10px;
+  font-size: 20px;
+  color: var(--blue);
+  float: right;
+}
+.sidetexte p.sidetexteSimple {
+  font-size: 20px;
+  font-weight: 400 !important;
+  text-align: justify;
+  color: var(--blue);
+}
+.col-lg-6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.col-lg-6.sidepic {
+  position: relative;
+  justify-content: center !important;
+}
+.sidepic img#prof {
+  border-radius: 50% 30% 70% 30% / 50% 30% 70% 70% !important;
+  transform: rotate(-45deg);
+  width: 70%;
+  margin-top: 2rem;
+}
+.sidepic img#simple {
+  border-radius: 50% 40% 30% 70% / 50% 30% 70% 70% !important;
+  width: 100%;
+  height: 400px !important;
+}
+.sidepic img#simple1 {
+  width: 100%;
+  height: 450px;
+}
+.container#profil .row {
+  height: 500px;
+}
+.container#profil .row img {
+  height: 350px;
+}
+.container#profil .row h2 {
+  color: var(--blue);
+  letter-spacing: 4px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Handlee", cursive !important;
+  line-height: 0;
+  margin-bottom: 0;
+}
+/*devider*/
+.devider#up {
+  position: relative;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23f4f8e4" fill-opacity="1" d="M0,160L120,144C240,128,480,96,720,106.7C960,117,1200,171,1320,197.3L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>');
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  height: 200px;
+}
+.devider#down {
+  position: relative;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23f4f8e4" fill-opacity="1" d="M0,160L120,144C240,128,480,96,720,106.7C960,117,1200,171,1320,197.3L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>');
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  height: 200px;
+}
+/*conteneur des cartes, contact*/
+.container .col-lg-6.contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 300px;
+}
+.container h1 {
+  color: var(--blue);
+  letter-spacing: 6px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 80px;
+  font-family: "Handlee", cursive !important;
+  margin-bottom: 2rem;
+}
+.container h1::first-letter {
+  font-size: 80px;
+}
+.container h2 {
+  color: var(--blue);
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  font-family: "Handlee", cursive !important;
+  margin-bottom: 2rem;
+}
+.container h3 {
+  margin-left: 1rem;
+  color: var(--red);
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Handlee", cursive !important;
+  text-decoration: underline 3px dotted;
+}
+.container .contact h4 {
+  color: var(--red);
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.container .contact h4 span {
+  font-weight: 600;
+  color: black;
+  margin-right: 1rem;
+}
+.container iframe {
+  margin-left: 6rem;
+}
+/*carte*/
+.card {
+  width: 10rem;
+  border: none;
+  box-shadow: 6px 3px 3px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  position: relative;
+  width: 100%;
+}
+.card#module {
+  height: 350px !important;
+}
+.card#docs {
+  height: 350px !important;
+}
+.card .card-img-top {
+  height: 150px;
+  width: 100%;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .card-body .card-title {
+  color: var(--red);
+  font-size: 20px;
+}
+.card .card-body .btn {
+  background-color: var(--light_blue);
+  border: 1px solid var(--light_blue);
+  padding: 2px 6px;
+  font-size: 20px;
+  color: var(--blue);
+}
+.card .card-body h6 {
+  font-size: 15px;
+  font-family: "Handlee", cursive !important;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: right;
+}
+.crm {
+  margin-bottom: 4rem;
+}
+/* footer */
+footer {
+  background-color: var(--white);
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.container.slides {
+  margin: 4rem;
+}
+.sliderImg {
+  height: 450px !important;
+}
+.masthead.sectionP.video {
+  margin-bottom: 4rem;
+}
+.masthead.sectionP.video .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.masthead.sectionP.video .container iframe {
+  margin: auto;
+}
