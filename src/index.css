@@ -24,7 +24,7 @@ body {
   border-radius: 0;
 }
 .navbar .navbar-toggler .navbar-toggler-icon {
-  background-image: url("assets/menu.svg");
+  background-image: url("menu.svg");
 }
 .navbar .navbar-nav .nav-item .nav-link {
   color: var(--blue);
