@@ -85,6 +85,24 @@ function Msp() {
             id={"docs"}
             prof={undefined}
           />
+          <Carte
+            image={"msp9.png"}
+            titre={"Fiche pédagogique: Notion de fichier et dossier"}
+            url={
+              "https://drive.google.com/file/d/1BqNWe1M6sjBo8LH60zh2IgfvHKz90_PO/view?usp=drive_link"
+            }
+            id={"docs"}
+            prof={undefined}
+          />
+          <Carte
+            image={"msp10.png"}
+            titre={"Fiche de contrôle: Contrôle n°1"}
+            url={
+              "https://drive.google.com/file/d/1_rUoUb_AcEDKX_mnO_PVmeIJE5E-U1W5/view?usp=drive_link"
+            }
+            id={"docs"}
+            prof={undefined}
+          />
         </div>
       </div>
       <Devider id={"down"} />
