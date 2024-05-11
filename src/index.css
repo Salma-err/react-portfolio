@@ -246,6 +246,12 @@ span {
   font-size: 20px;
   color: var(--blue);
 }
+.card .card-body .btn:hover {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  font-size: 21px;
+  color: white;
+}
 .card .card-body h6 {
   font-size: 15px;
   font-family: "Handlee", cursive !important;
