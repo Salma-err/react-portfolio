@@ -27,10 +27,10 @@ function Msp() {
         num2={2}
       />
       <Devider id={"up"} />
-      <div className="container">
+      <div className="container cartes">
         <h1>Formation :</h1>
         <h3>Semestre 1 :</h3>
-        <div className="row">
+        <div className="content">
           <Carte
             image={"msp1.png"}
             titre={"Compte rendu de la MSP"}

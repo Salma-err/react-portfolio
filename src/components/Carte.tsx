@@ -13,16 +13,14 @@ function Carte(props: {
   var id = props.id;
   var prof = props.prof;
   return (
-    <div className="col-3">
-      <div className="card" id={id}>
-        <img src={image} className="card-img-top" />
-        <div className="card-body">
-          <h5 className="card-title">{titre}</h5>
-          <h6>{prof}</h6>
-          <Link to={url} className="btn btn-primary">
-            Visualiser
-          </Link>
-        </div>
+    <div className="card" id={id}>
+      <img src={image} className="card-img-top" />
+      <div className="card-body">
+        <h5 className="card-title">{titre}</h5>
+        <h6>{prof}</h6>
+        <Link to={url} className="btn btn-primary">
+          Visualiser
+        </Link>
       </div>
     </div>
   );

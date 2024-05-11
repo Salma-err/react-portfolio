@@ -37,9 +37,9 @@ function Module(props: {
         num2={num2}
       />
       <Devider id={"up"} />
-      <div className="container">
+      <div className="container cartes">
         <h1>Documents :</h1>
-        <div className="row">{affcards}</div>
+        <div className="content">{affcards}</div>
       </div>
       <Devider id={"down"} />
       <Footer />

@@ -151,13 +151,20 @@ span {
   height: 200px;
 }
 /*conteneur des cartes, contact*/
+.masthead.sectionP.crm .container .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .container .col-lg-6.contact {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  height: 300px;
+  height: 400px;
 }
 .container h1 {
   color: var(--blue);
@@ -182,6 +189,7 @@ span {
 }
 .container h3 {
   margin-left: 1rem;
+  margin-bottom: 2rem;
   color: var(--red);
   letter-spacing: 2px;
   font-size: 40px;
@@ -205,19 +213,18 @@ span {
   margin-left: 6rem;
 }
 /*carte*/
+.container.cartes .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 .card {
-  width: 10rem;
   border: none;
   box-shadow: 6px 3px 3px rgba(0, 0, 0, 0.2);
-  margin: 1rem;
-  position: relative;
-  width: 100%;
-}
-.card#module {
+  width: 250px !important;
   height: 350px !important;
-}
-.card#docs {
-  height: 350px !important;
+  margin-bottom: 2rem;
 }
 .card .card-img-top {
   height: 150px;
@@ -260,7 +267,7 @@ footer {
   font-size: 20px;
 }
 .container.slides {
-  margin: 4rem;
+  margin-bottom: 4rem;
 }
 .sliderImg {
   height: 450px !important;

@@ -38,10 +38,10 @@ function Crmef() {
       <div className="container slides">
         <Slider images={images} />
       </div>
-      <div className="container">
+      <div className="container cartes">
         <h1>Formation :</h1>
         <h3>Semestre 1 :</h3>
-        <div className="row">
+        <div className="content">
           <Carte
             image={"recherche.svg"}
             titre={"Méthodologie de recherche-action"}
